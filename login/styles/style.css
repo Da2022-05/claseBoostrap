@@ -1,0 +1,83 @@
+/* Estilos Generales*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+/*  Colores Texto*/
+.text-blue{
+    color:#5db6ee;
+}
+
+/* Colores Fondo*/
+.bg-gray{
+    background-image: url("../img/janik-fischer-SyDmbnO5aV0-unsplash.jpg");
+    background-size: cover;
+    
+}
+
+.bg-white{
+    background-color: #fff;
+}
+/* Contenedor del formulario*/
+.from-container{
+    padding: 4rem ;
+    width: 20%;
+    height: 20rem;
+    border: solid 0.1rem green;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: -11px 11px 10px rgba(0, 0, 0, 0.473);
+}
+
+/* Contenedor de los inputs*/
+.input-container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container input{
+    border-radius: 0.4rem;
+    border: solid 0.1rem gray;
+    padding: 0.4rem;
+    margin-top: 0.2rem;
+}
+
+/* Contenedor checkbox */
+.check-container{
+    margin-top: 0.7rem;
+   
+}
+
+.check-container input{
+    margin-right: 0.3rem;
+}
+/* Estilo de Boton*/
+
+.btn-container{
+     margin-top: 1.5rem;
+     display: flex;
+     justify-content: center;
+}
+.btn{
+    padding: 0.7rem;
+    background-color: #6ca1a3;
+    border: 0px;
+    border-radius: 0.2rem;
+    color: white;
+}
+
+.btn:hover{
+    background-color: thistle;
+    color: black;
+}
+
+.screen-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
